@@ -48,7 +48,7 @@ def reset():
 
 #thêm Button
 btn = Button(windown, text="Submit", command=handleButton)
-
+btn.grid(column=1, row=1)
 #Nút Reset
 btn2 = Button(windown, text="Reset", command=reset)
 btn2.grid(column=1, row=2)
